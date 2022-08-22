@@ -1,0 +1,17 @@
+body{
+    background-color: orange;
+    text-align: center;
+    
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    from{box-shadow: 1px 1px 38px darkgoldenrod;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
